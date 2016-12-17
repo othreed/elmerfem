@@ -1,5 +1,5 @@
 find_package(PythonLibs 2.7 REQUIRED)
-find_package(Qt4 COMPONENTS QtCore QtGui REQUIRED)
+find_package(Qt5 COMPONENTS QtCore QtGui REQUIRED)
 
 SET(CMAKE_AUTOMOC ON)
 SET(CMAKE_INCLUDE_CURRENT_DIR ON)
