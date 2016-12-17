@@ -57,9 +57,9 @@ macx {
 # QWT library:
 #------------------------------------------------------------------------------
 unix {
-  QWT_INCLUDEPATH = /usr/include/qwt-qt4
+  QWT_INCLUDEPATH = /usr/include/qwt-qt5
   QWT_LIBPATH = /usr/lib
-  QWT_LIBS = -lqwt-qt4
+  QWT_LIBS = -lqwt-qt5
 }
 
 win32 {
