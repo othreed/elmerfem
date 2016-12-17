@@ -13,9 +13,9 @@ SET(WITH_ELMERGUILOGGER FALSE CACHE BOOL "ElmerGUI: Include ElmerGUIlogger")
 
 
 MESSAGE(STATUS "------------------------------------------------")
-FIND_PACKAGE(Qt4 COMPONENTS QtOpenGL QtXml QtScript QtGui QtCore REQUIRED)
-MESSAGE(STATUS "  [ElmerGUI] Qt4:               " ${Qt4_FOUND})
-MESSAGE(STATUS "  [ElmerGUI] Qt4_LIBRARIES:     " ${Qt4_LIBRARY})
+FIND_PACKAGE(Qt5 COMPONENTS QtOpenGL QtXml QtScript QtGui QtCore REQUIRED)
+MESSAGE(STATUS "  [ElmerGUI] Qt5:               " ${Qt5_FOUND})
+MESSAGE(STATUS "  [ElmerGUI] Qt5_LIBRARIES:     " ${Qt5_LIBRARY})
 MESSAGE(STATUS "------------------------------------------------")
 
 IF(WITH_PYTHONQT)
